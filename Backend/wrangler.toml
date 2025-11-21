@@ -9,7 +9,7 @@ id = "706123facbec4617a5fe938e20eed497"
 
 [[r2_buckets]]
 binding = "BUCKET"
-bucket_name = "healpro-documents"
+bucket_name = "healpro"
 
 [vars]
 R2_PUBLIC_URL = "https://documents.healpro.com"
@@ -22,6 +22,6 @@ enabled = true
 
 [env.staging]
 hyperdrive = [ { binding = "HYPERDRIVE", id = "706123facbec4617a5fe938e20eed497" } ]
-r2_buckets = [{ binding = "BUCKET", bucket_name = "healpro-documents-staging" }]
+r2_buckets = [{ binding = "BUCKET", bucket_name = "healpro-documents-dev" }]
 
 [env.production]
